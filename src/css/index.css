@@ -83,7 +83,7 @@ p.subheader{
 }
 
 #heroDiv {
-  background-image: url('/wp-content/themes/twentyfifteen-child/img/rainier3.jpg');
+  background-image: url('../images/hero.jpg');
   width:100vw;
   height: 100vh;
   padding-top: 40vh;
