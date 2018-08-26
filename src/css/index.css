@@ -1,0 +1,379 @@
+html.js {
+    margin-top: 0px !important;
+}
+
+p,h1,h2,h3,h4,h5,h6,a,span,div{
+	margin: 0px;
+	padding: 0px;
+}
+
+p,h1,h2,h3,h4,h5,h6,a{
+	font-family: 'Raleway', sans-serif;
+	color: #4a4a4a;
+}
+
+a:hover{
+	/*padding-left: 1px;*/
+	cursor: pointer;
+	color: inherit;
+	text-decoration: none;
+	border-bottom: 1px solid #4a4a4a;
+}
+
+a:visited{
+	color: inherit;
+	text-decoration: none;
+}
+
+h1{
+	font-weight: 300;
+	font-size: 3em;
+
+}
+
+h2{
+	text-align: center;
+	font-weight: 300;
+	font-size: 2.5em;
+}
+
+h3{
+	margin-bottom: 1em;
+	text-align: left;
+	font-weight: 300;
+	font-size: 1.9em;
+}
+
+h4{
+	margin-top: 2em;
+	text-align: left;
+	font-weight: 300;
+	font-size: 1.5em;
+}
+
+h5{
+	color: #4a4a4a;
+	text-align: left;
+	font-weight: 200;
+	font-size: 1.2em;
+	margin-bottom: 1em;
+	margin-top: 5px;
+}
+
+#App{
+	position: relative;
+  margin-top: 0px;
+}
+
+p.subheader{
+	margin-bottom: 4em;
+}
+
+.section{
+	margin-top: 5em;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 3em;
+	padding-bottom: 4em;
+}
+
+.section h2{
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+#heroDiv {
+  background-image: url('/wp-content/themes/twentyfifteen-child/img/rainier3.jpg');
+  width:100vw;
+  height: 100vh;
+  padding-top: 40vh;
+  background-size: cover;
+	text-align: center;
+	/*background-position: right;*/
+}
+
+#heroDiv p{
+	margin-top: 1em;
+}
+
+#bioDiv{
+	text-align: center;
+}
+
+#bioDiv p,
+#bioDiv h2{
+	color: #4a4a4a;
+}
+
+#mug{
+	max-width: 80%;
+	border-radius: 50%;
+	margin-bottom: 2em;
+}
+
+#experienceDiv{
+	background-color: white;
+}
+
+#resumeDiv h4,
+#resumeDiv a{
+	text-align: center;
+}
+
+.companyLogo, .eduLogo{
+	margin-top: 2em;
+	padding-top: 1em;
+	max-width: 300px;
+	max-height: 200px;
+}
+
+.experienceRow, .educationRow{
+	margin-top: 2em;
+	min-height: 300px;
+}
+
+.logoCol{
+	text-align: center;
+}
+
+#educationDiv {
+	position: relative;
+	background-image: url('/wp-content/themes/twentyfifteen-child/img/dome.jpg');
+  width:100vw;
+  /*height: 100vh; */
+  padding-top: 3em;
+  background-size: cover;
+	text-align: center;
+}
+
+#educationDiv p{
+	text-align: left;
+}
+
+#educationDiv:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: white;
+  opacity: 0.9;
+}
+
+#eduContent {
+  position: relative;
+  z-index: 2;
+}​
+
+#portfolioDiv{
+
+}
+
+.projectInfo h4{
+	text-align: center;
+}
+
+.projectInfo p{
+	text-align: left;
+}
+
+#sttcLogo{
+	width: 100%;
+	border-radius: 25px;
+}
+
+#fccLogo{
+	border-radius: 25px;
+	width: 100%;
+	margin-bottom: 2em;
+}
+
+#fccLogoSmall{
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	width: 50%;
+	margin-bottom: 2em;
+}
+
+#sttcLogo{
+	border: 1px solid #eee;
+}
+
+.codeProjectCol,
+.personalCol{
+	text-align: center;
+  position: relative;
+}
+
+.codeProject,
+.personalImg{
+	margin-top: 2em;
+	width: 100%;
+	position: relative;
+	border-radius: 25px;
+}
+
+#codePortfolioDiv .row{
+	margin-bottom: 1em;
+}
+
+.codeProject {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #eee;
+}
+
+.overlayImg{
+	margin-top: 2em;
+	height: 50%;
+  margin-top: 10%;
+}
+
+.overlay h4{
+	margin-top: 0px;
+}
+
+.overlay {
+	border-radius: 25px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.codeProjectCol:hover .overlay,
+.personalCol:hover .overlay
+ {
+  opacity: .95;
+}
+
+.projectInfo {
+	width: 80%;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#rulesDiv{
+
+	text-align: center;
+	padding-top: 10em;
+	padding-bottom: 10em;
+	/*height: 600px;*/
+	background: radial-gradient(448.50px at 50% 50%, rgba(47, 128, 237, 0.34) 0%, rgba(255, 255, 255, 0) 100%), #0F4CA8;
+}
+
+#rulesDiv h4{
+	color: white;
+	line-height: 1.3;
+}
+
+
+#personalDiv{
+	background-color: white;
+}
+
+#contactDiv{
+	margin-top: 0em;
+	/*background-color: #eee;*/
+	text-align: center;
+}
+
+#contactDiv h1,
+#contactDiv h4{
+	text-align: center;
+}
+
+.personalImg{
+	width: 100%;
+	border: 1px solid #eee;
+	border-radius: 25px;
+	margin-top: 2em;
+}
+
+#contactDiv img{
+	width: 100px;
+}
+
+#contactIconDiv{
+	margin-top: 2em;
+	margin-bottom: 4em;
+}
+
+#contactIconDiv a:hover{
+	text-decoration: none;
+	border-bottom: none;
+}
+
+.contactIcon{
+	margin: 10px;
+}
+
+body footer{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 1em;
+	color: #4a4a4a;
+	position: absolute;
+	bottom: 0;
+}
+
+.contactCol h4{
+	margin-top: .5em;
+	margin-bottom: 0px;
+}
+
+#nextBack{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	z-index: 20;
+}
+
+.btnNextBack{
+	background-color: transparent;
+	border: none;
+	padding: 0px;
+	height: 25px;
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+    outline: none
+}
+
+/* condition for screen size maximum of 500px */
+@media (max-width:500px) {
+
+  .companyLogo,
+  .eduLogo{
+  	max-width: 200px;
+  	max-height: 150px;
+  }
+
+  .overlay h4{
+  	font-size: 1em;
+  }
+
+	.projectInfo p{
+		font-size: .7em;
+	}
+}
