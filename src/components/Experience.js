@@ -1,5 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
+import assets from '../helpers/assets.js'
 
 class Experience extends React.Component {
   render() {
@@ -18,7 +19,7 @@ class Experience extends React.Component {
     return (
       <div className="row experienceRow">
         <div className={logoClasses}>
-          <img alt="company logo" className="companyLogo" src={this.props.logo}/>
+          <img alt="company logo" className="companyLogo" src={assets[this.props.logo]}/>
         </div>
         <div className={infoClasses}>
           <a href={this.props.url}><h4>{this.props.name}</h4></a>

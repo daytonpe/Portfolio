@@ -4,12 +4,12 @@ import { render } from 'react-dom';
 class Biography extends React.Component {
   render() {
     return (
-      <div class="section" id="bioDiv">
-        <div class="row">
-          <div class="col col-md-6">
-            <img id="mug" src="/wp-content/themes/twentyfifteen-child/img/mug.jpg" alt="profile picture"/>
+      <div className="section" id="bioDiv">
+        <div className="row">
+          <div className="col col-md-6">
+            <img id="mug" src={require('../images/profile.jpg')} alt="profile.jpg"/>
           </div>
-          <div class="col col-md-6">
+          <div className="col col-md-6">
             <h2>Pat in 30 Seconds</h2>
             <p>Hi, I’m Pat,</p>
             <p>I’m a developer currently living in Dallas, Texas. After studying Mechanical Engineering as an undergrad (MIT ’14) and spending a couple years in energy, I made the switch to software.</p>
