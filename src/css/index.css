@@ -353,13 +353,12 @@ p.subheader{
 	margin: 10px;
 }
 
-body footer{
+.App footer{
 	width: 100%;
 	text-align: center;
 	margin-bottom: 1em;
 	color: #4a4a4a;
 	position: absolute;
-	bottom: 0;
 }
 
 .contactCol h4{
