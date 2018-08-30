@@ -2,6 +2,13 @@ import React from 'react';
 import { render } from 'react-dom';
 import Experience from './Experience'
 
+// import { fab } from '@fortawesome/free-brands-svg-icons'
+// import { library } from '@fortawesome/fontawesome-svg-core'
+// import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// library.add( faEnvelope)
+
+
 class Contact extends React.Component {
   render() {
     return (
