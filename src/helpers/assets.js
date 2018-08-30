@@ -11,6 +11,10 @@ const assetsObject = {
   tts: require('../images/experience/tts.png'),
   upop: require('../images/experience/upop.png'),
   utd_edu: require('../images/education/utd.png'),
-  mit_edu: require('../images/education/mit.png')
+  mit_edu: require('../images/education/mit.png'),
+  cliffs: require('../images/adventure/cliffs.jpg'),
+  food:  require('../images/adventure/food.jpg'),
+  marathon: require('../images/adventure/marathon.jpg'),
+  mountain: require('../images/adventure/mountain.jpg')
 }
 export default assetsObject;

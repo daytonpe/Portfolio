@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from 'react-dom';
 import assets from '../helpers/assets.js'
 
-class Experience extends React.Component {
+class School extends React.Component {
   render() {
 
     let logoClasses;
@@ -31,4 +31,4 @@ class Experience extends React.Component {
   }
 }
 
-export default Experience;
+export default School;
