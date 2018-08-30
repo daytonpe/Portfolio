@@ -9,6 +9,8 @@ const assetsObject = {
   pioneer: require('../images/experience/pioneer.png'),
   sttc: require('../images/experience/sttc.png'),
   tts: require('../images/experience/tts.png'),
-  upop: require('../images/experience/upop.png')
+  upop: require('../images/experience/upop.png'),
+  utd_edu: require('../images/education/utd.png'),
+  mit_edu: require('../images/education/mit.png')
 }
 export default assetsObject;

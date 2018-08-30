@@ -101,6 +101,7 @@ p.subheader{
 
 #bioDiv{
 	text-align: left;
+  margin-bottom: 7em;
 }
 
 #bioDiv p,
@@ -112,10 +113,6 @@ p.subheader{
 	max-width: 80%;
 	border-radius: 50%;
 	margin-bottom: 2em;
-}
-
-#experienceDiv{
-	background-color: white;
 }
 
 #resumeDiv h4,
@@ -142,25 +139,26 @@ p.subheader{
 	min-height: 300px;
 }
 
+#experienceDiv{
+	text-align: left;
+}
+
+
+
 .logoCol{
 	text-align: center;
 }
 
-#educationDiv {
+/* to show dome in background */
+/* #educationDiv {
 	position: relative;
 	background-image: url('../images/education/dome.jpg');
   width:100vw;
-  /*height: 100vh; */
   padding-top: 3em;
   background-size: cover;
 	text-align: center;
-}
-
-#educationDiv p{
-	text-align: left;
-}
-
-#educationDiv:before {
+} */
+/* #educationDiv:before {
   content: "";
   position: absolute;
   top: 0;
@@ -170,7 +168,29 @@ p.subheader{
   z-index: 1;
   background: white;
   opacity: 0.9;
+} */
+
+#educationDiv {
+	position: relative;
+	/* background-image: url('../images/education/dome.jpg'); */
+  background-color: #17335E;
+  width:100vw;
+  /*height: 100vh; */
+  padding-top: 3em;
+  background-size: cover;
+	text-align: center;
 }
+
+#educationDiv p,#educationDiv a,#educationDiv h4,#educationDiv h5{
+  color: white;
+  text-align: left;
+}
+
+#educationDiv h2{
+  color: white;
+}
+
+
 
 #eduContent {
   position: relative;
