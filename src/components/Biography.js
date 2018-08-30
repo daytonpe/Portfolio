@@ -17,7 +17,7 @@ class Biography extends React.Component {
             <br />
             <p>I work with JavaScript, Docker, Kubernetes and other technologies at the startup Parkhub. In the evenings I’m working on my Master’s Degree from UTDallas in Computer Science on an Intelligent Systems (AI) track. I plan to finish my studies by Spring of 2020.</p>
             <br />
-            <p>I live for working on difficult problems and experiencing everything this world has to offer. If I'm not working, I'm likely climbing a peak.</p>
+            <p>I live for working on difficult problems and experiencing everything this world has to offer. If I'm not working, I'm likely climbing a peak (Mt. Rainier ^).</p>
           </div>
         </div>
       </div>

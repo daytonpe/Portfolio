@@ -6,7 +6,8 @@ class Experiences extends React.Component {
   render() {
 
     return (
-      <div className="row experienceRow section">
+      <div className="section row experienceRow">
+        <h2>Since Leaving My Home Town...</h2>
         <Experience
           logoPosition="right"
           name="Parkhub"
@@ -99,10 +100,10 @@ class Experiences extends React.Component {
         />
         <Experience
           logoPosition="right"
-          name="Parkhub"
-          url="http://parkhub.com/"
+          name="Undergraduate Practice Oportunities Program"
+          url="https://upop.mit.edu/"
           logo="upop"
-          position="Developer - Pulse Team"
+          position="Student"
           dates="Aug. 2011 - Aug. 2012"
           description="UPOP is a self-selected, professional development and engineering leadership effectiveness program that prepares MIT sophomores for success in the workplace. Received academic training in engineering modules and personalized coaching in career development over the course of one year."
         />

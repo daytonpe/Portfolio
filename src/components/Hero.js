@@ -6,7 +6,8 @@ class Hero extends React.Component {
     return (
       <div id="heroDiv">
 				<h1>Pat Dayton</h1>
-				<p>WEALTH IS THE ABILITY TO FULLY EXPERIENCE LIFE - THOREAU</p>
+				<p>WEALTH IS THE ABILITY TO FULLY EXPERIENCE LIFE</p>
+        <p>-Henry David Thoreau</p>
 			</div>
     )
   }
