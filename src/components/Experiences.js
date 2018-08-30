@@ -6,7 +6,7 @@ class Experiences extends React.Component {
   render() {
 
     return (
-      <div className="row experienceRow">
+      <div className="row experienceRow section">
         <Experience
           logoPosition="right"
           name="Parkhub"
