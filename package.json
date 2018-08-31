@@ -1,5 +1,6 @@
 {
-  "name": "portfolio-react",
+  "name": "portfolio-pat-dayton",
+  "homepage": "https://www.patdayton.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
